@@ -8,11 +8,12 @@
     font-weight: lighter;
 }
 body {
-    background-color: #ffffff;
+    background-color: #000000;
   
   }
 fieldset {
-    border: 2px solid #ccc;
+  color: #ccc;
+    border: 2px solid #908e8e;
     border-radius: 10px;
     padding: 20px;
     margin: 20px auto;
@@ -40,6 +41,12 @@ h2 {
     font-size: 2em;
     color: #d73c3c;
 }
+h3 {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 1.5em;
+    color: #555;
+}
 
 #enviar {
     display: block;
@@ -52,13 +59,30 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
 }
-#xbacon {
-   background-image: url("imagens/burg.png");
+fieldset.burg {
+   background-image: url("imagens/dobro-de\ carne.png");
    background-position: center center;
    background-size: cover;
    background-attachment: fixed;
    height: 100px; 
-   width: 1000px;
+   width: 80vw;
   
+  }
+  fieldset.bebidas {
+   background-image: url("imagens/coca-cola.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 100px; 
+   width: 80vw;
+  
+  }
+  fieldset.fritas {
+   background-image: url("imagens/batata-frita.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 100px; 
+   width: 80vw;
   
   }
