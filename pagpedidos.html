@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio</title>
+  <link rel="stylesheet" href="cardapio.css">
+</head>
+<body>
+  <div id="imag"> </div>
+  <h1>Cardápio</h1>
+  <h2>Hamburguers</h2>
+  <form action="pedidor.js" method="get">
+    <h3>Escolha um hambúrguer:</h3>
+    <fieldset>
+      <div xbacon></div>
+      <input type="checkbox" name="x-Bacon" id="X-Bacon">
+      <label for="X-bacon">X-Bacon</label>
+      <br>
+      <input type="checkbox" name="x-calabresa" id="X-Calabresa">
+      <label for="X-calabresa">X-Calabresa</label>
+      <br>
+      <input type="checkbox" name="x-eggs" id="X-Eggs">
+      <label for="X-eggs">X-Eggs</label>
+      <br>
+      <input type="checkbox" name="x-salada" id="X-salada">
+      <label for="X-salada">X-Salada</label>
+      
+    </fieldset>
+    <br>
+
+    <h2>Bebidas</h2>
+    <h3>Escolha um Refri:</h3>
+    <fieldset>
+      <input type="checkbox" name="coca" id="cola">Coca-Cola</input>
+      <br>
+      <input type="checkbox" name="pepsi" id="pepsi">Pepsi</input>
+      <br>
+      <input type="checkbox" name="fanta" id="fanta">Fanta</input>
+      <br>
+      <input type="checkbox" name="guaraná" id="guaraná">Guaraná</input>
+    </fieldset>
+    <br>
+
+    <h2>Acompanhamentos</h2>
+    <h3>Escolha um Acompanhamento:</h3>
+    <fieldset>
+      <input type="checkbox" name="batata-frita" id="batata-frita">Batata Frita</input>
+      <br>
+      <input type="checkbox" name="batata-rustica" id="batata-rustica">Batata Rústica</input>
+      <br>
+      <input type="checkbox" name="onion-rings" id="onion-rings">Onion Rings</input>
+      <br>
+      <input type="checkbox" name="nuggets" id="nuggets">Nuggets</input>
+    </fieldset>
+
+    <br>
+    <br>
+    <input type="submit" value="Enviar Pedido" id="enviar">
+  </form>
+
+  
+</body>
+</html>
