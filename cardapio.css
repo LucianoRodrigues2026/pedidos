@@ -7,12 +7,15 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: lighter;
 }
+::-webkit-scrollbar {
+    width: 0px;
+}
 body {
     background-color: #000000;
   
   }
 fieldset {
-  color: #ccc;
+    color: #ccc;
     border: 2px solid #908e8e;
     border-radius: 10px;
     padding: 20px;
@@ -36,12 +39,14 @@ h1 {
     color: #333;
 }
 h2 {
+    text-indent: 20px;
     text-align: left;
     margin-top: 20px;
     font-size: 2em;
     color: #d73c3c;
 }
 h3 {
+    text-indent: 20px;
     text-align: left;
     margin-top: 10px;
     font-size: 1.5em;
@@ -79,6 +84,15 @@ fieldset.burg {
   }
   fieldset.fritas {
    background-image: url("imagens/batata-frita.jpg");
+   background-position: center center;
+   background-size: cover;
+   background-attachment: fixed;
+   height: 100px; 
+   width: 80vw;
+  
+  }
+  fieldset.cafe {
+   background-image: url("imagens/cafe.jpg");
    background-position: center center;
    background-size: cover;
    background-attachment: fixed;
