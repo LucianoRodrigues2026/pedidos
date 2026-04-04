@@ -1,27 +1,33 @@
 @charset "UTF-8";
+@font-face {
+    font-family: 'burg';
+    src: url("font/hamburguer/HAMBURGUER.ttf") format('truetype');
+}
 
 * {
     margin: 0;
     padding: 0;
     font-variant: small-caps;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: lighter;
 }
 ::-webkit-scrollbar {
     width: 0px;
 }
 body {
-    background-color: #000000;
-  
+    background-image: radial-gradient(circle,#fff , #6e6e6e, #000  );
+    background-attachment: fixed;
+    
   }
 fieldset {
-    color: #ccc;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: #908e8e;
     border: 2px solid #908e8e;
     border-radius: 10px;
     padding: 20px;
     margin: 20px auto;
     width: 80%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.814);
+    
 }
 
 #imag {
@@ -33,24 +39,28 @@ fieldset {
     width: 100vw;
 }
 h1 {
+    font-family: 'burg', sans-serif;
     text-align: center;
     margin-top: 20px;
-    font-size: 3em;
+    font-size: 5em;
     color: #333;
 }
 h2 {
+    
+    font-family: 'burg', sans-serif;
     text-indent: 20px;
     text-align: left;
     margin-top: 20px;
-    font-size: 2em;
+    font-size: 4em;
     color: #d73c3c;
 }
 h3 {
+    font-weight: bolder;
     text-indent: 20px;
     text-align: left;
     margin-top: 10px;
     font-size: 1.5em;
-    color: #555;
+    color: #000000;
 }
 
 #enviar {
@@ -59,13 +69,13 @@ h3 {
     padding: 10px 20px;
     font-size: 1.5em;
     color: #fff;
-    background-color: #007BFF;
+    background-color: #5dabff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 fieldset.burg {
-   background-image: url("imagens/dobro-de\ carne.png");
+   background-image: url("imagens/burg1.jpg");
    background-position: center center;
    background-size: cover;
    background-attachment: fixed;
@@ -74,7 +84,7 @@ fieldset.burg {
   
   }
   fieldset.bebidas {
-   background-image: url("imagens/coca-cola.jpg");
+   background-image: url("imagens/refrigerante.jpg");
    background-position: center center;
    background-size: cover;
    background-attachment: fixed;
